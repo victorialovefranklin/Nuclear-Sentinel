@@ -1,0 +1,2 @@
+external_rows_total,target_calibration_rows_total,target_calibration_normal_rows,locked_evaluation_rows,target_calibration_fraction,residual_threshold_quantile,min_extreme_residuals_rule,calibration_assumption
+124764,24952,23569,99812,0.2,0.995,2,known-normal target-environment commissioning/reference period

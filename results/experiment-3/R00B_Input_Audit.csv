@@ -1,0 +1,9 @@
+item,value
+normal_file,/content/SWaT_Dataset_Normal_v1.csv
+attack_file,/content/SWaT_Dataset_Attack_v0.csv
+attack_log,not found
+attack_label,Normal/Attack
+timestamp_column,Timestamp
+control_features,26
+physical_features,25
+combined_B3_features,51

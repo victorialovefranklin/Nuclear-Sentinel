@@ -1,0 +1,2 @@
+dataset,algorithm,comparison,metric,mean_difference,ci95_low,ci95_high,supports_improvement
+SWaT_A1,IsolationForest,M1 - B3,macro_f1,-0.16248025399840088,-0.18893511353837183,-0.1371093767788721,False

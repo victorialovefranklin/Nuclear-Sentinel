@@ -1,21 +1,8 @@
-# ==========================================
-# Nuclear Sentinel - Git Ignore Rules
-# ==========================================
-
-# Research datasets
+# Raw/local data
 data/*
-*.csv
-*.xlsx
-*.xls
-*.parquet
-*.zip
-*.7z
-*.rar
+!data/README.md
 
-# Keep the empty data directory
-!data/.gitkeep
-
-# Secrets and credentials
+# Secrets
 .env
 *.env
 secrets/
@@ -24,31 +11,21 @@ credentials/
 *.pem
 *.pfx
 
-# Python
+# Python/Jupyter
 __pycache__/
 *.pyc
-*.pyo
 .venv/
 venv/
-env/
-
-# Jupyter
 .ipynb_checkpoints/
 
-# IDE
+# OS/IDE/temp
 .vscode/
 .idea/
-
-# Temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
 *.tmp
 *.log
 *.bak
 ~$*.docx
 ~$*.xlsx
-
-# Windows
-Thumbs.db
-desktop.ini
-
-# macOS
-.DS_Store
